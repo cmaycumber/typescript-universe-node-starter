@@ -29,7 +29,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn format && yarn tsc && yarn eslint"
+      "pre-commit": "yarn format && yarn build && yarn eslint"
     }
   },
   "eslintConfig": {
